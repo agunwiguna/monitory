@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:textAppearance="?android:textAppearance"
+        android:text="@string/nama"/>
+    <EditText
+        android:id="@+id/edt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:hint="@string/contoh_budi"/>
+
+    <TextView
+        android:id="@+id/txt_umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:textAppearance"
+        android:text="@string/umur"/>
+    <EditText
+        android:id="@+id/edt_umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="9dp"
+        android:hint="@string/contoh_12"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="380dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/nunito_bold"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/selanjutnya"/>
+
+</LinearLayout>

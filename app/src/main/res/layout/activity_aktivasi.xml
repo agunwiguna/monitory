@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context=".AktivasiActivity">
+
+    <TextView
+        android:id="@+id/txt_kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textAppearance="?android:textAppearance"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/kode_keluarga"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_kode"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textAppearance="?android:textAppearance"
+        android:text="@string/kode_kel" />
+
+    <EditText
+        android:id="@+id/edt_kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="16dip"
+        android:background="@drawable/editround"
+        android:hint="Tuliskan Kode Keluarga disini"/>
+
+    <TextView
+        android:id="@+id/txt_ket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:textAppearance"
+        android:layout_below="@+id/edt_kode"
+        android:text="@string/ketentuan"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_below="@+id/txt_ket"
+        android:text="@string/masuk"/>
+
+    <LinearLayout
+        android:id="@+id/layout_ak"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_below="@id/btn_masuk">
+
+        <TextView
+            android:id="@+id/txt_belump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:textAppearance"
+            android:textAllCaps="false"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/belum_punya"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedblue"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:text="@string/beli"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>

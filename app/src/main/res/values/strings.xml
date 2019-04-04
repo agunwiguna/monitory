@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Monitory</string>
+    <string name="mulai">Mulai</string>
+    <string name="kode_kel">Ketikan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="kode_keluarga">Kode Keluarga</string>
+    <string name="masuk">Masuk</string>
+    <string name="nama">Nama Panggilan Kamu</string>
+    <string name="contoh_budi">Contoh: Budi</string>
+    <string name="umur">Umur Kamu</string>
+    <string name="contoh_12">Contoh: 12</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="belum_punya">Belum Punya Kode Keluarga?</string>
+    <string name="ketentuan">
+        Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan pengguna</b> dan <b>Kebijakan Data</b> Kami
+    </string>
+    <string name="beli">Beli Kode Keluarga Disini</string>
+    <string name="monitory">Monitory Membantu Anda Mengontrol HP Anak</string>
+</resources>
